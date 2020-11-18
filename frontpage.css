@@ -1,0 +1,31 @@
+.jumbotron {
+    background-image: url(images/wordopening.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 85vh;
+    width: 100vw;
+    /* margin:0;  */
+    display: flex;
+    align-items: flex-end;
+}
+
+/* .leadDesktop {
+    display:inline
+} */
+.leadMobile{
+    display: none
+} 
+
+@media (max-width: 807px) {
+    .jumbotron {
+        background-image: url(images/phoneopening.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* .leadDesktop {
+        display:none
+    } */
+    .leadMobile{
+        display: inline
+    }
+}
